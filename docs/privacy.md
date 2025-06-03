@@ -3,6 +3,7 @@ Effective Date: June 2, 2025
  Last Updated: June 2, 2025
 
 Your privacy and your children's privacy remain fully protected because we never collect personal information of any kind.
+
 Table of Contents
 Introduction
 Our Commitment to Privacy
