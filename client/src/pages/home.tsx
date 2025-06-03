@@ -1,4 +1,11 @@
-import { Card, CardContent } from "@/components/ui/card";
+// File: d:\1Projects\PeekabooWebsite\client\src\pages\home.tsx
+// Author: Cascade (AI Assistant) Gemini 2.5 Pro via Windsurf
+// Date: 2025-06-02
+// Description: This file defines the Home page component for the Peekaboo Interactive Games website.
+// It displays information about the company, its legacy, values, and contact details.
+// This page serves as the main landing page for visitors.
+//
+// Note: The import for Card and CardContent was removed on 2025-06-02 as it's no longer used after a content update.
 
 export default function Home() {
   return (
@@ -7,52 +14,74 @@ export default function Home() {
       <header className="pt-16 pb-8 px-4">
         <div className="max-w-2xl mx-auto text-center">
           <div className="mb-6">
-            <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-2">
-              Peekaboo Interactive Games
+            <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
+              Legendary Design Meets Modern Innovation
             </h1>
             <div className="text-6xl mb-4" role="img" aria-label="Pig emoji">
               🐷
             </div>
-            <p className="text-lg text-slate-600 font-medium">PIG</p>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Welcome to Peekaboo Interactive Games, where the timeless artistry of renowned children's illustrator Brianne Baker lives on through cutting-edge educational technology designed for the next generation.
+            </p>
           </div>
         </div>
       </header>
 
       {/* Main Content */}
       <main className="flex-1 px-4 pb-16">
-        <div className="max-w-2xl mx-auto">
-          <section className="text-center space-y-8">
-            {/* Support Message */}
-            <div className="space-y-4">
-              <h2 className="text-2xl md:text-3xl font-bold text-slate-800">
-                Need Support?
-              </h2>
-              <p className="text-lg text-slate-600 leading-relaxed">
-                If you need support for any of the Peekaboo games, we're here to help.
-              </p>
-            </div>
+        <div className="max-w-2xl mx-auto space-y-12">
+          <section className="space-y-4">
+            <h2 className="text-3xl font-bold text-slate-800">The Brianne Baker Legacy</h2>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Since 2008, Brianne Baker's distinctive illustrations have defined childhood wonder for millions of families worldwide. Her intuitive understanding of early development, paired with her extraordinary artistic vision, has created some of the most beloved characters in children's digital media. From the gentle farm animals of Peekaboo Barn to the magical forest creatures inspired by Charley Harper's aesthetic, Baker's work transcends mere illustration—it captures the essence of childhood curiosity and transforms it into meaningful learning experiences.
+            </p>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Baker's artistic philosophy centers on respect for developing minds. Every curve, color, and character emerges from deep understanding of what captivates young hearts while supporting cognitive growth. Her geometric precision and vibrant palette create visual experiences that engage without overwhelming, educate without lecturing, and delight without distraction.
+            </p>
+          </section>
 
-            {/* Contact Card */}
-            <Card className="bg-white rounded-2xl shadow-sm border border-slate-200">
-              <CardContent className="p-8 md:p-12">
-                <div className="space-y-4">
-                  <h3 className="text-xl font-semibold text-slate-800">
-                    Contact Support
-                  </h3>
-                  <p className="text-slate-600">
-                    Please email us at:
-                  </p>
-                  <div className="pt-2">
-                    <a 
-                      href="mailto:support@peekaboointeractivegames.com" 
-                      className="inline-flex items-center text-lg font-medium text-blue-600 hover:text-blue-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-lg px-2 py-1"
-                    >
-                      support@peekaboointeractivegames.com  
-                    </a>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+          <section className="space-y-4">
+            <h2 className="text-3xl font-bold text-slate-800">A New Chapter in Educational Excellence</h2>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Peekaboo Interactive Games proudly carries forward this extraordinary creative legacy, breathing new life into beloved classics while maintaining the artistic integrity that has made these apps treasured by educators, therapists, and families globally. Our mission extends beyond preservation—we're reimagining these timeless experiences for modern devices and evolving educational needs.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-3xl font-bold text-slate-800">Complete Privacy Protection</h2>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              In an era where children's digital privacy has become increasingly precious, we stand as unwavering guardians of safe play experiences. Every app maintains zero data collection, complete offline functionality, and absolute freedom from advertising. Our COPPA-compliant design ensures pure educational exploration that honors childhood development above all else.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-3xl font-bold text-slate-800">Trusted by Professionals Worldwide</h2>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Our comprehensive collection serves thousands of classrooms, therapy centers, and special education programs. From early intervention specialists to ESL educators, professionals trust our research-based designs to support children with diverse learning needs through engaging, therapeutic interactions.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-3xl font-bold text-slate-800">Innovation Rooted in Excellence</h2>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              While honoring Brianne Baker's artistic vision, we're pioneering new approaches to educational technology. Our complete app rebuilds utilize cutting-edge frameworks designed for longevity and institutional reliability, ensuring these cherished experiences will serve generations of learners ahead.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-3xl font-bold text-slate-800">Independent Studio Values</h2>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              As a woman-led indie kids educational studio, every creation reflects our dedication to meaningful childhood experiences. We believe exceptional children's technology emerges from love, expertise, and unwavering commitment to developmental appropriateness—not corporate algorithms or market trends.
+            </p>
+          </section>
+
+          <section className="text-center space-y-4 pt-8">
+            <p className="text-md text-slate-600">
+              Legacy information available at <a href="https://www.nightandday.co/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 underline">nightandday.co</a>
+            </p>
+            <p className="text-md text-slate-600">
+              Contact us at <a href="mailto:support@peekaboointeractive.com" className="text-blue-600 hover:text-blue-700 underline">support@peekaboointeractive.com</a> to learn more about institutional licensing and educational partnerships.
+            </p>
           </section>
         </div>
       </main>
@@ -61,7 +90,7 @@ export default function Home() {
       <footer className="pb-8 px-4">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-sm text-slate-500">
-            © 2025 Peekaboo Interactive Games
+            &copy; {new Date().getFullYear()} Peekaboo Interactive Games
           </p>
         </div>
       </footer>
