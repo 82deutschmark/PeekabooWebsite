@@ -29,3 +29,13 @@
     *   Added a link to the Privacy Policy page (`/privacy`) in the footer.
     *   Imported `Link` from `next/link`.
 *   Noted persistent lint error regarding `next/link` module not being found in both `privacy.tsx` and `home.tsx`, suggesting a potential project setup or type definition issue.
+
+### 2025-06-02
+
+**Author:** 
+
+**Changes:**
+
+*   Added llms.txt file
+    *   Created llms.txt file at root directory as new standard for LLM accessibility
+    *   Contains site summary, key resources, and important links

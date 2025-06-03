@@ -1,0 +1,16 @@
+# Site Summary
+PeekabooWebsite is a platform for [brief description of site purpose].
+
+# Main Documents
+1. Home Page - Primary landing page: /
+2. Privacy Policy - Data handling guidelines: /privacy
+
+# Key Resources
+- API Documentation: /api-docs
+- User Guides: /help-center
+- Contact Information: /contact
+
+# Important Links
+- Blog: /blog (Latest updates and articles)
+- FAQ: /faq (Common questions answered)
+- Community Forum: /forum (User discussions)
