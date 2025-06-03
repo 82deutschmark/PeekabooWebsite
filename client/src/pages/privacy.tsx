@@ -1,177 +1,115 @@
 // d:\1Projects\PeekabooWebsite\client\src\pages\privacy.tsx
-// This file defines the Privacy Policy page for the Peekaboo Interactive Games website.
-// It outlines how user data is collected, used, and protected.
+// This component renders the full Privacy Policy page, based on docs/privacy.md
 // Author: Cascade
 import React from 'react';
-
 
 const PrivacyPolicyPage: React.FC = () => {
   return (
     <div>
       <header>
         <h1>Privacy Policy for Big Happy Holding Company and Subsidiaries (Peekaboo Interactive Games)</h1>
-        <p>Effective Date: March 1, 2025</p>
+        <p>Effective Date: June 2, 2025</p>
+        <p>Last Updated: June 2, 2025</p>
       </header>
 
       <section>
         <h2>1. INTRODUCTION</h2>
-        <p>This Privacy Policy ("Policy") explains how Big Happy Holding Company and its subsidiaries ("Big Happy," "we," "our," or "us") collect, use, disclose, and protect your personal data in compliance with applicable data protection laws—including the GDPR, the California Consumer Privacy Act (CCPA), and the Children's Online Privacy Protection Act (COPPA). By using our services, you consent to the practices described herein.</p>
-        <p>If you believe your data has been processed unlawfully, you have the right to lodge a complaint with your local data protection authority.</p>
+        <p>This Privacy Policy explains how Big Happy Holding Company and its subsidiaries ("Big Happy," "we," "our," or "us") collect, use, and protect information when you use our services.</p>
+        <p>Key points: We collect only anonymous technical data to improve our apps. We never collect personal information from children or adults.</p>
+        <p>Compliance: GDPR, CCPA, CPRA, and COPPA.</p>
       </section>
 
       <section>
-        <h2>2. DATA WE COLLECT</h2>
-        <h3>2.1. Categories of Data Collected (Tied to Parents Only):</h3>
-        <p>We do not collect any personal data from children. The data we collect—if any—is tied to the parent or guardian using our services. These categories may include:</p>
+        <h2>2. OUR COMMITMENT TO PRIVACY</h2>
         <ul>
-          <li>2.1.1. Basic Contact Information (e.g., name, email address).</li>
-          <li>2.1.2. Browsing and Usage Data from our websites, mobile applications, and digital platforms.</li>
-          <li>2.1.3. Device Information and Log Data generated during use of our services.</li>
-          <li>2.1.4. Data collected via Cookies and similar tracking technologies (see Section 9).</li>
-        </ul>
-        <p>We do not collect or process sensitive personal information as defined under the CCPA/CPRA.</p>
-      </section>
-
-      <section>
-        <h2>3. HOW WE USE YOUR DATA</h2>
-        <h3>3.1. Permitted Uses:</h3>
-        <ul>
-          <li>(a) To operate and improve our services.</li>
-          <li>(b) To analyze usage trends and tailor our offerings.</li>
-          <li>(c) To develop new features and products.</li>
-          <li>(d) To support our day-to-day business functions.</li>
+          <li>No personal information collection from anyone</li>
+          <li>Anonymous technical data only</li>
+          <li>Data used solely for app improvement</li>
+          <li>No advertising or marketing use</li>
+          <li>Full COPPA compliance for children's safety</li>
         </ul>
       </section>
 
       <section>
-        <h2>4. LEGAL BASIS FOR PROCESSING</h2>
-        <p>We process your personal data only when at least one of the following lawful bases applies:</p>
+        <h2>3. DATA WE COLLECT</h2>
+        <h3>3.1 Anonymous Technical Data</h3>
         <ul>
-          <li>4.1. Consent – where you have provided explicit consent.</li>
-          <li>4.2. Contract – where processing is necessary for the performance of a contract with you.</li>
-          <li>4.3. Legal Obligation – where processing is required by law.</li>
-          <li>4.4. Legitimate Interests – where processing is necessary for our bona fide business interests, such as providing support to parents, improving app functionality, and ensuring security. This applies only to parental data and never to data related to children.</li>
+          <li>Usage analytics (features used, session duration)</li>
+          <li>Performance metrics (loading times, crash reports)</li>
+          <li>General device information (OS version, device type)</li>
+        </ul>
+        <h3>3.2 We Do Not Collect</h3>
+        <ul>
+          <li>Names, emails, contact info</li>
+          <li>Photos, videos, audio</li>
+          <li>Location data, identifiers, IP addresses</li>
+          <li>Any personal or child-specific information</li>
         </ul>
       </section>
 
       <section>
-        <h2>5. DATA SHARING</h2>
-        <h3>5.1. Permitted Data Sharing Recipients:</h3>
-        <p>We do not sell or share data with advertisers or ad networks. We may share limited parental data with:</p>
+        <h2>4. HOW WE USE DATA</h2>
         <ul>
-          <li>(a) Our subsidiaries and affiliated companies.</li>
-          <li>(b) Trusted partners and service providers who assist in our business operations.</li>
+          <li>Improve app performance and stability</li>
+          <li>Fix bugs and technical issues</li>
+          <li>Understand feature usage</li>
+          <li>Optimize across devices</li>
         </ul>
-        <p>Any international transfers will be conducted in accordance with applicable data protection laws.</p>
       </section>
 
       <section>
-        <h2>6. DATA SECURITY AND BREACH NOTIFICATION</h2>
-        <p>We implement appropriate technical and organizational measures to safeguard your personal data against unauthorized access, alteration, or disclosure. In the event of a data breach, we will notify the relevant supervisory authority and affected individuals as required by law.</p>
+        <h2>5. CHILDREN'S PRIVACY PROTECTION</h2>
+        <p>We fully comply with COPPA: no personal data from children under 13; all data is anonymous.</p>
+        <p>No social features, no external links, no ads, no behavioral tracking of children.</p>
       </section>
 
       <section>
-        <h2>7. DATA RETENTION</h2>
-        <p>We retain parental data only as long as necessary for the purposes outlined in this policy, and no longer than 12 months after the parent's last interaction with our services. Data deletion requests will be honored promptly.</p>
+        <h2>6. DATA SHARING AND THIRD PARTIES</h2>
+        <p>All shared data is anonymous and limited to reputable analytics and crash reporting services. No sales or ad sharing.</p>
       </section>
 
       <section>
-        <h2>8. YOUR RIGHTS</h2>
-        <p>Under applicable laws (including GDPR and CCPA/CPRA), you have the following rights:</p>
-        <ul>
-          <li>8.1. The right to access your personal data.</li>
-          <li>8.2. The right to rectify inaccurate or incomplete data.</li>
-          <li>8.3. The right to erasure, subject to legal limitations.</li>
-          <li>8.4. The right to restrict processing where applicable.</li>
-          <li>8.5. The right to data portability.</li>
-          <li>8.6. The right to object to processing based on our minimal legitimate interests.</li>
-          <li>8.7. Right to Withdraw Consent and Request Deletion.</li>
-        </ul>
-        <p>8.7.5. Certain personal data, including transaction records and security logs, may be retained as required by law or for legitimate business interests, including fraud prevention, compliance with legal obligations, and dispute resolution. Upon receiving a valid deletion request, we will erase your personal data from our systems and instruct any third-party service providers to delete your data unless legal obligations prevent them from doing so.</p>
+        <h2>7. COOKIES AND TRACKING</h2>
+        <p>Mobile apps use anonymous analytics SDKs. Our website uses only essential cookies and no tracking cookies for marketing.</p>
       </section>
 
       <section>
-        <h2>9. COOKIES AND TRACKING TECHNOLOGIES</h2>
-        <p>We use cookies and similar tracking technologies to enhance your experience and analyze website usage. You may manage your cookie preferences through your browser settings. Additional details are provided in our Cookie Policy.</p>
+        <h2>8. DATA SECURITY</h2>
+        <p>We implement secure transmission, access controls, and regular assessments to protect data.</p>
       </section>
 
       <section>
-        <h2>10. DATA PROTECTION OFFICER AND CONTACT INFORMATION</h2>
-        <p>For any questions regarding this Privacy Policy or to exercise your rights, please contact:</p>
+        <h2>9. DATA RETENTION</h2>
+        <p>Data is retained up to 24 months for app improvement. Anonymous data purged regularly.</p>
+      </section>
+
+      <section>
+        <h2>10. YOUR RIGHTS</h2>
+        <p>Anonymous data rights do not apply, but you may contact us for confirmation of our practices.</p>
+        <p>California (CCPA/CPRA) and EU/UK (GDPR) rights do not apply to anonymous data but can request information.</p>
+      </section>
+
+      <section>
+        <h2>11. CONTACT INFORMATION</h2>
         <p>Data Protection Officer: Mark Barney</p>
-        <p>Email: <a href="mailto:data.protection@bighappyhc.com">data.protection@bighappyhc.com</a></p>
+        <address>
+          Big Happy Holding Company<br />
+          653 Pudding Hill Road<br />
+          Hampton, CT 06247, USA<br />
+          Phone: (860) 294-4111<br />
+          Email: <a href="mailto:data.protection@bighappyhc.com">data.protection@bighappyhc.com</a>
+        </address>
+        <p>Response Time: Within 30 days</p>
       </section>
 
       <section>
-        <h2>11. CHANGES TO THIS POLICY</h2>
-        <p>We reserve the right to update this Privacy Policy from time to time. Any changes will be posted on our website with an updated effective date. Your continued use of our services constitutes acceptance of such changes.</p>
+        <h2>12. LEGAL COMPLIANCE</h2>
+        <p>Governed by Connecticut law. Compliant with COPPA, CCPA/CPRA, GDPR, and other applicable privacy laws.</p>
       </section>
 
       <section>
-        <h2>12. GOVERNING LAW</h2>
-        <p>This Privacy Policy shall be governed by and construed in accordance with the laws of Connecticut, except where applicable data protection laws (such as GDPR) require compliance with local jurisdictional laws.</p>
-      </section>
-
-      <section>
-        <h2>13. CALIFORNIA CONSUMER PRIVACY RIGHTS</h2>
-        <h3>13.1. Applicability:</h3>
-        <ul>
-          <li>(a) If you are a resident of California, additional rights under the CCPA and CPRA apply.</li>
-        </ul>
-        <h3>13.2. Additional Rights:</h3>
-        <ul>
-          <li>(a) The right to request disclosure of the categories and specific pieces of personal data collected about you.</li>
-          <li>(b) The right to request deletion of your personal data (subject to exceptions).</li>
-          <li>(c) The right to opt out of the sale or sharing of your personal data.</li>
-          <li>(d) The right to receive equal service and pricing without discrimination for exercising these rights.</li>
-        </ul>
-        <h3>13.3. Notice:</h3>
-        <p>At or before the point of data collection, California consumers will be provided with a notice that includes:</p>
-        <ul>
-          <li>(a) The categories of personal data collected.</li>
-          <li>(b) The purposes for which the data is collected.</li>
-          <li>(c) The categories of third parties with whom your data may be shared.</li>
-        </ul>
-        <p>We do not sell your personal data as defined under the CCPA.</p>
-      </section>
-
-      <section>
-        <h2>14. EXERCISE OF CALIFORNIA PRIVACY RIGHTS</h2>
-        <p>To exercise your rights under the CCPA/CPRA, submit a verifiable request to our Data Protection Officer using the contact information in Section 10. Upon receiving a valid request, we will verify your identity and respond within 45 days, with a possible extension of an additional 45 days if necessary. We will not discriminate against any California consumer for exercising their rights under these laws.</p>
-      </section>
-
-      <section>
-        <h2>15. CALIFORNIA DATA COLLECTION NOTICE</h2>
-        <p>At the point of data collection from California residents, we will provide clear and conspicuous notice that explains:</p>
-        <ul>
-          <li>(a) The categories of personal data collected.</li>
-          <li>(b) The purposes for which the data is used.</li>
-          <li>(c) The rights available to California consumers under the CCPA and CPRA.</li>
-          <li>(d) Instructions on how to exercise those rights.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>16. CHILDREN'S PRIVACY – OUR COMMITMENT TO KEEPING KIDS SAFE</h2>
-        <h3>16.1. Collection of Data</h3>
-        <p>16.1.1. We never knowingly collect any personal information from children under 13 (or the applicable age in your region). Our services are designed for young children to enjoy safely, but any data we collect—if any—is always linked to the parent or guardian, not to the child.</p>
-        <p>16.1.2. We do not collect, store, or share any of the following child-specific information:</p>
-        <ul>
-          <li>(a) A child's name, birthdate, or personal details;</li>
-          <li>(b) A child's voice, face, or behavioral patterns;</li>
-          <li>(c) Any data that could identify a child.</li>
-        </ul>
-        <h3>16.2. Accidental Collection and Deletion</h3>
-        <p>16.2.1. If we ever discover that a child's personal information has been collected accidentally, we will delete it immediately.</p>
-        <p>16.2.2. If you believe we have inadvertently collected your child's personal information, please contact us at <a href="mailto:data.protection@bighappyhc.com">data.protection@bighappyhc.com</a> with details, and we will confirm deletion within 10 business days.</p>
-        <h3>16.3. Parental Data</h3>
-        <p>16.3.1. We may collect limited data tied to the parent's account or device, such as app purchase details, general app usage data, and tracking for parents (e.g., if they sign up for emails or promotions). This data is never linked to the child and is solely used to improve the experience for parents and families.</p>
-        <h3>16.4. Advertising and Tracking</h3>
-        <p>16.4.1. We do not display ads in our services, use behavioral tracking on children, or share data with advertisers. Any data we collect is used solely to enhance the parent's experience and is never used for marketing to children.</p>
-        <h3>16.5. Parental Control and Contact</h3>
-        <p>16.5.1. As a parent, you always have control over your data. If you have any questions or wish to review or delete data associated with your account, please contact us at <a href="mailto:data.protection@bighappyhc.com">data.protection@bighappyhc.com</a>.</p>
-        <h3>16.6 Parental Consent and Verification</h3>
-        <p>By purchasing our app or creating an account, you affirm that you are the parent or legal guardian and consent to the collection and use of your data as outlined in this Privacy Policy.</p>
+        <h2>13. CHANGES TO THIS POLICY</h2>
+        <p>Updates posted with a new effective date. Continued use constitutes acceptance.</p>
       </section>
 
       <footer>
