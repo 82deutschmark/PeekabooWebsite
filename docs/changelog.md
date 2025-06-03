@@ -14,3 +14,18 @@
     *   Modified the footer to display the current year dynamically.
 *   Created `docs` directory.
 *   Created `docs/changelog.md`.
+
+### 2025-06-02 22:23:18
+
+**Author:** Cascade
+
+**Changes:**
+
+*   Updated `client/src/pages/privacy.tsx`:
+    *   Converted the plain text privacy policy into a React functional component (`PrivacyPolicyPage`) to resolve syntax errors.
+    *   Removed CSS styling and imports.
+    *   Ensured `next/link` is used for navigation.
+*   Updated `client/src/pages/home.tsx`:
+    *   Added a link to the Privacy Policy page (`/privacy`) in the footer.
+    *   Imported `Link` from `next/link`.
+*   Noted persistent lint error regarding `next/link` module not being found in both `privacy.tsx` and `home.tsx`, suggesting a potential project setup or type definition issue.

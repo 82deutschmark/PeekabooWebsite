@@ -7,6 +7,7 @@
 //
 // Note: The import for Card and CardContent was removed on 2025-06-02 as it's no longer used after a content update.
 
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
@@ -91,6 +92,8 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-sm text-slate-500">
             &copy; {new Date().getFullYear()} Peekaboo Interactive Games
+            <span className="mx-2">|</span>
+            <a href="/privacy" className="text-blue-600 hover:text-blue-700 underline">Privacy Policy</a>
           </p>
         </div>
       </footer>
