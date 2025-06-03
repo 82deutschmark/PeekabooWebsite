@@ -7,6 +7,8 @@
 //
 //
 
+import pigLogoPath from "@assets/IMG_8259.png";
+import pigFarmPath from "@assets/IMG_8260.png";
 
 export default function Home() {
   return (
@@ -18,8 +20,12 @@ export default function Home() {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
               Legendary Design Meets Modern Innovation
             </h1>
-            <div className="text-6xl mb-4" role="img" aria-label="Pig emoji">
-              🐷
+            <div className="mb-6">
+              <img 
+                src={pigLogoPath} 
+                alt="Peekaboo Interactive Games - Pig Logo" 
+                className="w-48 h-auto mx-auto rounded-lg shadow-lg"
+              />
             </div>
             <p className="text-lg text-slate-600 leading-relaxed">
               Welcome to Peekaboo Interactive Games, where the timeless artistry of renowned children's illustrator Brianne Baker lives on through cutting-edge educational technology designed for the next generation.
@@ -33,6 +39,13 @@ export default function Home() {
         <div className="max-w-2xl mx-auto space-y-12">
           <section className="space-y-4">
             <h2 className="text-3xl font-bold text-slate-800">The Brianne Baker Legacy</h2>
+            <div className="my-8 flex justify-center">
+              <img 
+                src={pigFarmPath} 
+                alt="Peekaboo Farm Scene with Pig, Chickens, and Barn" 
+                className="w-full max-w-md h-auto rounded-lg shadow-lg"
+              />
+            </div>
             <p className="text-lg text-slate-600 leading-relaxed">
               Since 2008, Brianne Baker's distinctive illustrations have defined childhood wonder for millions of families worldwide. Her intuitive understanding of early development, paired with her extraordinary artistic vision, has created some of the most beloved characters in children's digital media. From the gentle farm animals of Peekaboo Barn to the magical forest creatures inspired by Charley Harper's aesthetic, Baker's work transcends mere illustration—it captures the essence of childhood curiosity and transforms it into meaningful learning experiences.
             </p>
