@@ -47,3 +47,11 @@
 **Changes:**
 
 *   Updated llms.txt with information from home.tsx to enhance LLM accessibility and add brand keywords.
+
+### 2025-06-02 23:45
+
+**Author:** Cascade (AI Assistant)
+
+**Changes:**
+
+*   Created robots.txt file according to standard for web crawler instructions.

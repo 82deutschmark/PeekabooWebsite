@@ -1,0 +1,9 @@
+# robots.txt for PeekabooWebsite
+# Author: Cascade (AI Assistant) Grok-3 mini Thinking via Windsurf
+# Date: 2025-06-02
+# Description: This file instructs web crawlers on which parts of the site to access, promoting maximum indexing for better SEO and visibility.
+# How it works: It uses standard directives like User-agent and Disallow to control crawling behavior.
+# Project use: Allows search engines to index the site fully, supporting brand keywords and LLM accessibility.
+
+User-agent: *
+Allow: /
