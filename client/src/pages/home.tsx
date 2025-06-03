@@ -44,10 +44,10 @@ export default function Home() {
                   </p>
                   <div className="pt-2">
                     <a 
-                      href="mailto:info@bhhc.us" 
+                      href="mailto:support@peekaboointeractivegames.com" 
                       className="inline-flex items-center text-lg font-medium text-blue-600 hover:text-blue-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-lg px-2 py-1"
                     >
-                      info@bhhc.us
+                      support@peekaboointeractivegames.com  
                     </a>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ export default function Home() {
       <footer className="pb-8 px-4">
         <div className="max-w-2xl mx-auto text-center">
           <p className="text-sm text-slate-500">
-            © 2024 Peekaboo Interactive Games
+            © 2025 Peekaboo Interactive Games
           </p>
         </div>
       </footer>
