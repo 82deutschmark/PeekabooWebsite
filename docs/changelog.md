@@ -39,3 +39,11 @@
 *   Added llms.txt file
     *   Created llms.txt file at root directory as new standard for LLM accessibility
     *   Contains site summary, key resources, and important links
+
+### 2025-06-02 23:42
+
+**Author:** Cascade (AI Assistant)
+
+**Changes:**
+
+*   Updated llms.txt with information from home.tsx to enhance LLM accessibility and add brand keywords.

@@ -1,8 +1,8 @@
 # Site Summary
-PeekabooWebsite is a platform for [brief description of site purpose].
+PeekabooWebsite is dedicated to Peekaboo Interactive Games, a woman-led studio preserving Brianne Baker's legacy in innovative, privacy-focused educational technology for children.
 
 # Main Documents
-1. Home Page - Primary landing page: /
+1. Home Page - Primary landing page showcasing company history, values, and Brianne Baker's contributions: /
 2. Privacy Policy - Data handling guidelines: /privacy
 
 # Key Resources
@@ -11,6 +11,13 @@ PeekabooWebsite is a platform for [brief description of site purpose].
 - Contact Information: /contact
 
 # Important Links
-- Blog: /blog (Latest updates and articles)
-- FAQ: /faq (Common questions answered)
-- Community Forum: /forum (User discussions)
+- Blog: /blog (Latest updates on educational innovation and Peekaboo apps)
+- FAQ: /faq (Common questions about Brianne Baker's legacy and our technology)
+- Community Forum: /forum (User discussions on child development)
+
+# Brand Keywords
+- Peekaboo Interactive Games
+- Brianne Baker Legacy
+- Educational Technology for Kids
+- Privacy-Focused Apps
+- Woman-Led Studio

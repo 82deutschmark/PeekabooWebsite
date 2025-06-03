@@ -5,7 +5,7 @@
 // It displays information about the company, its legacy, values, and contact details.
 // This page serves as the main landing page for visitors.
 //
-// Note: The import for Card and CardContent was removed on 2025-06-02 as it's no longer used after a content update.
+//
 
 
 export default function Home() {
