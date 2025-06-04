@@ -185,9 +185,10 @@ This policy is effective as of June 2, 2025 and applies to all Big Happy Holding
 `;
 
 const PrivacyPage: React.FC = () => (
-  <main className="privacy-policy">
-    <h1>Privacy Policy</h1>
-    <ReactMarkdown>{privacyPolicyMarkdown}</ReactMarkdown>
+  <main className="max-w-4xl mx-auto px-6 py-12">
+    <article className="prose prose-slate max-w-none lg:prose-lg">
+      <ReactMarkdown>{privacyPolicyMarkdown}</ReactMarkdown>
+    </article>
   </main>
 );
 
