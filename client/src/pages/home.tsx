@@ -106,6 +106,8 @@ export default function Home() {
           <p className="text-sm text-slate-500">
             &copy; {new Date().getFullYear()} Peekaboo Interactive Games
             <span className="mx-2">|</span>
+            <a href="/research" className="text-blue-600 hover:text-blue-700 underline">Research</a>
+            <span className="mx-2">|</span>
             <a href="/privacy" className="text-blue-600 hover:text-blue-700 underline">Privacy Policy</a>
           </p>
         </div>

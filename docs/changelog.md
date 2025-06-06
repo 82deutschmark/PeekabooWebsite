@@ -55,3 +55,15 @@
 **Changes:**
 
 *   Created robots.txt file according to standard for web crawler instructions.
+
+### 2025-06-06 16:21:12
+
+**Author:** Cascade (AI Assistant)
+
+**Changes:**
+
+*   Added Research page:
+    *   Created `client/src/pages/research.tsx` with links to supporting research
+    *   Added link to Kocurek & Miller (2017) research paper
+    *   Updated home page footer navigation with Research link
+    *   Created assets directory and copied PDF research paper
